@@ -1,0 +1,23 @@
+@import url("assets/Styles/header.css");
+@import url("assets/Styles/presentation.css");
+
+
+:root{
+    --cor-primaria: #151515;
+    --cor-secundaria: #121212;
+    --cor-fontes-primarias: #C4C4C4;
+    --cor-fontes-secundarias: #2EB48E;
+    
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: var(--cor-fontes-primarias);
+}
+
+br{
+    background-color: transparent;
+}
+
+
+

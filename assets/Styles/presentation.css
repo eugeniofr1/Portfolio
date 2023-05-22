@@ -1,0 +1,84 @@
+.presentation{
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 5em 1em;
+}
+
+#my__name {
+    border-right: 0.15em solid white; /* Efeito de cursor */
+    animation: write 1s steps(40) infinite, blink 1.5s infinite;
+    font-size: 2em;
+    color: var(--cor-fontes-secundarias);
+    
+}
+  
+@keyframes write {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+.title__presentation {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2em 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.links__items {
+    min-width: 100px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1em 0.9em;
+    color: var(--cor-fontes-primarias);
+    border: 2px solid;
+    animation: alternateColors 3s infinite;
+    border-radius: 15px;
+}
+
+@keyframes alternateColors{
+    0%{
+        border-color: #85C853;
+    }
+    50%{
+        border-color: #5ABE70;
+    }
+    100%{
+        border-color: #2BB490;
+    }
+}
+
+#link__linkedin {
+    background-color: var(--cor-secundaria);
+    
+}
+
+#link__github {
+    background-color: var(--cor-primaria);
+    margin-left: 5px;
+}
+
+#icon-linkedin { 
+    width: 30px;
+}
+
+#icon-github {
+    width: 20px;
+    margin-right: 9px;
+}
