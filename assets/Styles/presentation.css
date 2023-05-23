@@ -64,6 +64,18 @@
     }
 }
 
+.technologies{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    gap: 2em;
+}
+
+.technologies__icons{
+    width: 38px
+}
+
+
 #link__linkedin {
     background-color: var(--cor-secundaria);
     
