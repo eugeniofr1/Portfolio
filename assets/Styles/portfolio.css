@@ -8,10 +8,9 @@
 }
 
 .image__portfolio {
-    box-sizing: border-box;
-    border: 5px solid;
-    animation: alternateColors 3s infinite;
+    box-sizing: border-box; 
     border-radius: 15px;
+    max-width: 200px;
 }
 
 .title__portfolio {
@@ -21,4 +20,8 @@
 
 .description__portfolio {
     color: var(--cor-fontes-secundarias);
+}
+
+.portfolio__card{
+    margin-top: 2em;
 }
